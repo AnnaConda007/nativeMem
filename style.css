@@ -1,0 +1,32 @@
+.meme-generator {
+  font-family: "Arial", sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mem-container {
+  margin-top: 20px;
+  position: relative;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.draggable-text {
+  position: absolute;
+  cursor: move;
+}
+.mem-canvas{
+  display: none;
+}

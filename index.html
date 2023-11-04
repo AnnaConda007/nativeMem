@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="meme-generator">
+      <input type="file" accept="image/*" class="imageInput" />
+      <div>
+        <textarea class="textInput" placeholder="Введите текст мема"></textarea>
+      </div>
+      <div>
+        <label>Размер шрифта:</label>
+        <input type="number" class="fontSizeInput" value="20" />
+      </div>
+      <div>
+        <label>Цвет:</label>
+        <input type="color" class="colorInput" value="#000000" />
+      </div>
+      <div class="mem-container"></div>
+      <canvas class="mem-canvas"></canvas>
+
+      <button class="saveBtn">Сохранить мем</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
